@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.header-section {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+}
+.navigation {
+  width: 100%;
+  height: auto;
+  background-color: #55e6c1;
+  font-family: "Work Sans", sans-serif;
+}
+.trending-products-main {
+  width: 100%;
+  height: auto;
+  /* background-color: #F97F51; */
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.trending-products,
+.health-product-container,
+.personalcare-product-container,
+.agriculture-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.trending-products-heading,
+.all-products-heading,
+.about-heading,
+.contact-heading {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0 5px 0;
+}
+.trending-items,
+.health-item,
+.personalcare-item,
+.agriculture-item {
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+}
+.trending-items:hover,
+.health-item:hover,
+.personalcare-item:hover,
+.agriculture-item:hover {
+  -webkit-box-shadow: 3px 4px 13px 11px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 4px 13px 11px rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 4px 13px 11px rgba(0, 0, 0, 0.6);
+}
+.product-img {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.product-details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Quicksand", sans-serif;
+}
+.product-text {
+  padding: 3px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.product-view-button {
+  margin: auto 5px 0;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  background-color: #55e6c1;
+}
+.all-products {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: block;
+  padding: 10px;
+}
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0;
+  border-bottom: 1px solid #c8d6e5;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize;
+}
+.product-header h2 {
+  font-size: 28px;
+  color: #55e6c1;
+}
+.product-header:hover {
+  -webkit-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.75);
+}
+.health-products,
+.personal-care-products,
+.agriculture-products {
+  margin: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.about {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+}
+.about-content {
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+.about-content::first-letter {
+  font-size: 36px;
+  color: #55e6c1;
+  font-family: "Work Sans", sans-serif;
+}
+.contact {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+  margin: 5px;
+  border: 1.5px solid;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+.contact-input:focus {
+  border-color: #55e6c1;
+  outline: none;
+}
+.submitbtn {
+  width: 100px;
+  background-color: #55e6c1;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #55e6c1;
+  font-family: "Work Sans", sans-serif;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact-info-box,
+.important-link-box,
+.copyright-info-box {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  display: block;
+  padding: 20px 10px 0 10px;
+}
+.contact-link {
+  display: flex;
+}
+.contact-link img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.important-link-box {
+  padding-left: 20px;
+}
+.important-link-box ul li {
+  list-style-type: none;
+  text-align: left;
+}
+.important-link-box ul li a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.important-link-box ul li a:hover {
+  color: #fff;
+}
+.copyright-info-box {
+  text-align: center;
+}
+.copyright-info-box h3 {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+/* 
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+ */
